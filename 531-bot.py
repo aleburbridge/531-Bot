@@ -69,12 +69,12 @@ fiveThreeOne = ['zoop',5,3,1]
 #bot stuff!
 @client.event
 async def on_ready():
-    general_channel = client.get_channel(763972697801621565)
+    general_channel = client.get_channel(YOUR CHANNEL ID HERE)
     print('Connected Successfully')
 
 @client.event
 async def on_message(message):
-    general_channel = client.get_channel(763972697801621565)
+    general_channel = client.get_channel(YOUR CHANNEL ID HERE)
 
     if message.author == client.user:
         return
@@ -208,4 +208,4 @@ async def on_message(message):
                 await general_channel.send(str(random.choice(squat_accessories_quads)) + ' 5 x 10')
                 await general_channel.send(str(random.choice(squat_accessories_calves)) + ' 5 x 10')
 
-client.run('NzYzOTY0MDc2OTA4ODcxNjkx.X3_W_Q.nhGpmniKDGoENyNIYpEmetMw3Xs')
+client.run('your token here')
