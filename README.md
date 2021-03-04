@@ -36,4 +36,4 @@ For example, if you were on **week 2** and it was **deadlift** day, you would ty
 To get your current maxes without having to open up the python file, type `1rm` 
 !![1rm](https://i.imgur.com/msBwILP.png)
 
-I believe it would be a great service to the world if nobody ever had to read anything Jim Wendler has written (especially his 5/3/1 "book"). Enjoy the bot and enjoy your gains
+I believe it would be a great service to the world if nobody ever had to read anything Jim Wendler has written (especially his 5/3/1 "book") Hopefully this tool is a suitable replacement for you. Enjoy the bot and enjoy your gains
