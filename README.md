@@ -27,8 +27,9 @@ If you don't know how to add a discord bot to a server, I recommend [this tutori
 
 Replace the API key and Channel ID strings in the source code with your respective strings
 ## Usage
-Type `week {week number} {main lift}` to get the bot to respond with your sets for the day
+Type `$w{week number} {lift}` to get the bot to respond with your sets for the day
 
-For example, if you were on **week 2** and it was **deadlift** day, you would type `week 2 deadlift`
+For example, if you were on **week 2** and it was **deadlift** day, you would type `$w2 deadlift`
 
 To get your current maxes without having to open up the python file, type `1rm` 
+!![1rm](https://i.imgur.com/msBwILP.png)
