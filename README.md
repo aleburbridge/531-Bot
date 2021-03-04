@@ -18,8 +18,6 @@ Since the calculations usually don't result in nice 5lb increments, the weight i
 
 ## Plate Math 
 
-## Advancing to the next cycle
-When you have completed four weeks, it is time to start the next cycle. 5/3/1 prescribes adding 5lbs to your press and bench and 10 lbs to your squat and deadlift. To tell the bot to do this, type `$next cycle`
 # How to get started 
 First, you'll need to have [discord.py](https://discordpy.readthedocs.io/en/latest/index.html) downloaded
 
