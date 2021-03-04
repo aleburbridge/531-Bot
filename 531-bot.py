@@ -17,16 +17,16 @@ class Workout:
     def todaysWorkout(self):
         setsList = []
 
-        setsList.append(myround(self.maxweight * self.set1))
-        setsList.append(myround(self.maxweight * self.set2))
-        setsList.append(myround(self.maxweight * self.set3))
+        setsList.append(myround( (self.maxweight * .9) * self.set1))
+        setsList.append(myround( (self.maxweight * .9) * self.set2))
+        setsList.append(myround( (self.maxweight * .9) * self.set3))
 
         return setsList
 
-w1 = {0.65: ' x 5', 0.75: ' x 5', 0.85: ' x 5+'}
-w2 = {0.7: ' x 3', 0.8: ' x 3', 0.9: ' x 3+'}
-w3 = {0.75: ' x 5', 0.85: ' x 3', 0.95: ' x 1+'}
-w4 = {0.4: ' x 5', 0.5: ' x 5', 0.6: ' x 5'}
+w1 = {0.65: ' x 5', 0.75: ' x 5', 0.85: 'x 5+'}
+w2 = {0.7: ' x 3', 0.8: ' x 3', 0.9: ' x3+'}
+w3 = {0.75: ' x 5', 0.85: ' x 3', 0.95: ' x1+'}
+w4 = {0.4: ' x 5', 0.5: ' x 5', 0.6: ' x5'}
 weekDict = {'w1': w1, 'w2':w2, 'w3':w3, 'w4':w4}
 
 # these numbers are the 1RM, change these each cycle
@@ -66,5 +66,8 @@ async def on_message(message):
         setsList = (exerciseDict[messageExercise]).todaysWorkout()
 
         await print_sets()
+
+    if '1rm' in message.content:
+        await general_channel.send(f'Your 1-rep maxes (not 90% value):\nPress: {press.maxweight}\nDeadlift: {deadlift.maxweight}\nBench: {bench.maxweight}\nSquat: {squat.maxweight}')
 
 client.run(TOKEN)
