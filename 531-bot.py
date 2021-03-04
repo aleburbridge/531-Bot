@@ -2,8 +2,8 @@ import discord
 import random
 client = discord.Client()
 
-TOKEN = 'NzYzOTY0MDc2OTA4ODcxNjkx.X3_W_Q.89GLeoxRHI5fd2OEINFS2Tu57So'
-channelID = 744728945873780739
+TOKEN = 'YOUR TOKEN HERE'
+channelID = 'YOUR CHANNEL ID HERE (int, not a string!)'
 
 #function that rounds to nearest 5
 def myround(x, base=5):
