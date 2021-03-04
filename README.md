@@ -26,6 +26,8 @@ This can be done easily from terminal using `pip install discord`
 If you don't know how to add a discord bot to a server, I recommend [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
 
 Replace the API key and Channel ID strings in the source code with your respective strings
+
+Run the .py file and badabing badaboom
 ## Usage
 Type `$w{week number} {lift}` to get the bot to respond with your sets for the day
 
