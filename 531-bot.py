@@ -2,8 +2,14 @@ import discord
 import random
 client = discord.Client()
 
+# edit lines 6-12 and you are good to go
 TOKEN = 'YOUR TOKEN HERE'
 channelID = 'YOUR CHANNEL ID HERE (int, not a string!)'
+
+pressWeight = 'YOUR PRESS HERE'
+deadliftWeight = 'YOUR DL HERE'
+benchWeight = 'YOUR BENCH HERE'
+squatWeight = 'YOUR SQUAT HERE'
 
 #function that rounds to nearest 5
 def myround(x, base=5):
@@ -30,11 +36,12 @@ w4 = {0.4: ' x 5', 0.5: ' x 5', 0.6: ' x5'}
 weekDict = {'w1': w1, 'w2':w2, 'w3':w3, 'w4':w4}
 
 # these numbers are the 1RM, change these each cycle
-press = Workout('press', 100)
-squat = Workout('squat', 250)
-deadlift = Workout('deadlift', 315)
-bench = Workout('bench', 200)
-exerciseDict = {'press': press, 'squat': squat, 'deadlift': deadlift, 'bench':bench}
+press = Workout('press', pressWeight)
+deadlift = Workout('deadlift', deadliftWeight)
+bench = Workout('bench', benchWeight)
+squat = Workout('squat', squatWeight)
+
+exerciseDict = {'press': press, 'deadlift': deadlift, 'bench':bench, 'squat': squat}
 
 # bot stuff!
 @client.event
