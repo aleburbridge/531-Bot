@@ -1,5 +1,5 @@
 # 5/3/1 Bot
-Look, I love Jim Windler's 5/3/1 weightlifting program as much as the next bootlicking gym rat, but pulling out the calculator in between every set really kills the preworkout buzz
+Look, I love Jim Windler's 5/3/1 weightlifting program as much as the next bootlicking gym-rat, but pulling out the calculator in between every set really kills the preworkout caffeine buzz
 
 And as handy as the [online calculators](https://blackironbeast.com/5/3/1/calculator) are, who has the time for all those input fields? 
 
