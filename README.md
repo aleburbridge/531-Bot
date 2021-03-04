@@ -23,7 +23,7 @@ First, you'll need to have [discord.py](https://discordpy.readthedocs.io/en/late
 
 This can be done easily from terminal using `pip install discord`
 
-If you don't know how to add a discord bot to a server, I recommend [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
+Add the bot to your server (I recommend a personal server so your friends aren't overloaded with notifications). If you don't know how to add a discord bot to a server, I recommend [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
 
 Replace the API key and Channel ID strings in the source code with your respective strings
 
