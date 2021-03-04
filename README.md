@@ -14,10 +14,6 @@ As per Wendler's recommendation, this bot takes 90% of your 1-rep max and then g
 
 Since the calculations usually don't result in nice 5lb increments, the weight is automatically round up or down to the nearest plate size
 
-## Assistance work 
-
-## Plate Math 
-
 # How to get started 
 First, you'll need to have [discord.py](https://discordpy.readthedocs.io/en/latest/index.html) downloaded
 
