@@ -26,7 +26,7 @@ To get your current maxes without having to open up the python file, type `1rm`
 If you don't have [discord.py](https://discordpy.readthedocs.io/en/latest/index.html) installed, navigate to the folder containing the *531-Bot* files and run `pip install -r requirements.txt`
 
 
-Add the bot to your server (I recommend a personal server so your friends aren't overloaded with notifications). If you don't know how to add a discord bot to a server, I recommend [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
+Add the bot to your server (I recommend a personal server so your friends aren't overloaded with notifications). If you don't know how to add a discord bot to a server, check out [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
 
 Replace the API key and Channel ID in the source code and enter in your 1-rep maxes (raw numbers, the program will convert them to  their 90% values)
 
