@@ -28,7 +28,7 @@ If you don't have [discord.py](https://discordpy.readthedocs.io/en/latest/index.
 
 Add the bot to your server (I recommend a personal server so your friends aren't overloaded with notifications). If you don't know how to add a discord bot to a server, I recommend [this tutorial](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
 
-Replace the API key and Channel ID strings in the source code with your respective strings
+Replace the API key and Channel ID in the source code and enter in your 1-rep maxes (raw numbers, the program will convert them to  their 90% values)
 
 Run the .py file and badabing badaboom
 
