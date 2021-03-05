@@ -32,5 +32,5 @@ Replace the API key and Channel ID strings in the source code with your respecti
 
 Run the .py file and badabing badaboom
 
-
+## A final note ~
 I believe the world would be a better place if nobody ever had to read anything Jim Wendler has written (especially his 5/3/1 "book"). Hopefully this tool contributes to that effort. Behind that terrible writing style is a lifting regimen that is fun and easy to be consistent with. Enjoy your gains 💪
