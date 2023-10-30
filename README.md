@@ -1,3 +1,5 @@
+This is how many dots I can fit in this readme: ....
+
 # 5/3/1 Bot
 I love Jim Windler's 5/3/1 weightlifting program as much as the next guy, but really hate pulling out the calculator in between every set
 
@@ -35,4 +37,4 @@ Run the .py file and badabing badaboom
 ## A final note ~
 I believe the world would be a better place if nobody ever had to read anything Jim Wendler has written (especially his 5/3/1 "book"). Hopefully this tool contributes to that effort. Enjoy your gains 💪
 
-This is how many dots I can fit in this readme: ...
+
