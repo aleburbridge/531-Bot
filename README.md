@@ -1,12 +1,3 @@
-This is how many dots I can fit in this readme: .........
-
-# 5/3/1 Bot
-I love Jim Windler's 5/3/1 weightlifting program as much as the next guy, but really hate pulling out the calculator in between every set
-
-And as handy as the [online calculators](https://blackironbeast.com/5/3/1/calculator) are, who has the time for all those input fields? 
-
-That's where the 5/3/1 bot comes in 
-
 ## What does it do?
 This bot takes your 1-rep maxes for the four main lifts and then generates sets and reps for whatever day you happen to be on
 
